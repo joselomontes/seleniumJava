@@ -33,7 +33,7 @@ public class test1 {
 	
 	public void initialize() {
 		
-		System.setProperty("webdriver.chrome.driver", ".\\driver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 		
 		//ChromeOptions options = new ChromeOptions();
 	
