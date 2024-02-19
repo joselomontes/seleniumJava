@@ -33,7 +33,7 @@ public class test1 {
 	
 	public void initialize() {
 		
-		System.setProperty("webdriver.chrome.driver", ".//driver//chromedriver");
+		System.setProperty("webdriver.chrome.driver", "/seleniumJava/driver/chromedriver");
 		
 		//ChromeOptions options = new ChromeOptions();
 	
