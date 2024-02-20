@@ -33,7 +33,12 @@ public class test1 {
 	
 	public void initialize() {
 		
-		System.setProperty("webdriver.chrome.driver", "/home/runner/work/seleniumJava/seleniumJava/driver/chromdriver");
+		//PARA WINDOWS
+		//System.setProperty("webdriver.chrome.driver", ".//driver//chromedriver.exe");
+		
+		//PARA MAC
+		System.setProperty("webdriver.chrome.driver", ".//driver//chromedriver");
+		 
 		
 		//ChromeOptions options = new ChromeOptions();
 	
