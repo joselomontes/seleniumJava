@@ -34,10 +34,10 @@ public class test1 {
 	public void initialize() {
 		
 		//PARA WINDOWS
-		//System.setProperty("webdriver.chrome.driver", ".//driver//chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", ".//driver//chromedriver.exe");
 		
 		//PARA MAC
-		System.setProperty("webdriver.chrome.driver", ".//driver//chromedriver");
+		//System.setProperty("webdriver.chrome.driver", ".//driver//chromedriver");
 		 
 		
 		//ChromeOptions options = new ChromeOptions();
